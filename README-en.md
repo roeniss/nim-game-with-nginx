@@ -4,6 +4,21 @@
 
 I made a NIM game using nginx.
 
+## Screenshots
+
+You can easily host the game.
+
+![1.png](./doc/1.png)
+
+When you send a request, the counter increments. If you send requests too quickly, you will be rate limited.
+
+![2.png](./doc/2.png)
+
+The user who increment the 100th counter wins.
+
+![3.png](./doc/3.png)
+
+
 ## NIM game?
 
 It's a kind of mathematical mind game where a set number of stones are taken, and the last player to take the last stone wins or loses. (In this game, the last player to take the last stone wins)
