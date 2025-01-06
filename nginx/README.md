@@ -1,0 +1,2 @@
+- `nginx.conf` should be in `/etc/nginx`.
+- `default.conf` should be or linked in `/etc/nginx/sites-enabled`.
