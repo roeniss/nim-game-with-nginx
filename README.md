@@ -40,7 +40,7 @@ curl http://GAME_HOST_IP/count
 ```
 echo "SECRET_PRIZE_CODE" > prize.txt # create new prize code
 cat prize.txt | md5sum # check the md5 hash
-docker run -d --platform=linux/amd64 --network host -v $(pwd)/prize.txt:/usr/local/etc/nginx/prize.txt ghcr.io/roeniss/nim-game-with-nginx/nim-game-with-nginx:latest
+docker run -d --platform=linux/amd64 --network host -v $(pwd)/prize.txt:/usr/local/etc/nginx/prize.txt ghcr.io/roeniss/nim-game-with-nginx:latest
 ```
 
 > [!WARNING]
